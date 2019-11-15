@@ -3,7 +3,6 @@ package com.example.clima;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.net.Uri;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
@@ -22,6 +21,8 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
